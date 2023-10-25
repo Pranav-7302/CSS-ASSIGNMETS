@@ -1,0 +1,19 @@
+     .container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+      }
+      .heading {
+        font-family: 'Oswald', sans-serif;
+        font-family: 'Poppins', sans-serif;
+        text-align: center;
+      }
+      .fontimage {
+        height: 300px;
+        width: 600px;
+      }
+      .para {
+        font-family: "Montserrat", sans-serif;
+        font-family: "Roboto", sans-serif;
+      }

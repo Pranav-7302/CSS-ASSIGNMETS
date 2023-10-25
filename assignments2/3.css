@@ -1,0 +1,32 @@
+.menu{
+    display: inline;
+    margin: 10px;
+    padding: 10px;
+}
+.container{
+    background-color: rgb(41, 41, 218);
+    margin: 20px;
+    padding: 30px;
+}
+a{
+    color: white;
+}
+a:hover{
+    color: red;
+}
+.a{
+    border: 5px dashed black;
+}
+.b{
+    border: 5px dotted black;
+}
+.c{
+    border: 5px double black;
+}
+.d{
+    border: 5px inset black;
+}
+.e{
+    border: 5px groove black;
+}
+

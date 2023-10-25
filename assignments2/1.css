@@ -1,0 +1,16 @@
+.menu{
+    display: inline;
+    margin: 10px;
+    padding: 10px;
+}
+.container{
+    background-color: rgb(41, 41, 218);
+    margin: 20px;
+    padding: 30px;
+}
+a{
+    color: white;
+}
+a:hover{
+    color: red;
+}
