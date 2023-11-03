@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    position: relative;
+    height: 2000px;
+}
+.header{
+    height: 80px;
+    width: 100vw;
+    background-color: black;
+    position: fixed;
+}
+
+.logo{
+    position: absolute;
+    left: 20px;
+    bottom: 20px;
+    color: white;
+}
+.nav {
+   position: absolute;
+   top: 20px;
+   bottom: 30px;
+   right: 10px;
+}
+.nav-items1{
+color: #ccc
+}
+li{
+    margin: 20px;
+    color: white;
+    display: inline;
+    list-style: none;
+}
+.button{
+    margin-right: 20px;
+    border: 1px solid yellow;
+    background-color: black;
+    color: yellow;
+    padding: 10px 30px 10px 30px;
+    border-radius: 10%;
+}
+.text{
+    position: absolute;
+    margin-top: 150px;
+}

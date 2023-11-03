@@ -1,0 +1,38 @@
+.container{
+border: 2px solid black;
+padding: 30px;
+width: fit-content;
+position: relative;
+}
+.box{
+    background-color: aquamarine;
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    display: inline-block;
+    
+}
+.box.a{
+top: 200px;
+left: 200px;
+}
+.box.b{
+position: absolute;
+top: 0px;
+left: 0px;
+}
+.box.c{
+position: absolute;
+right: 0px;
+top: 0px;
+}
+.box.d{
+position: absolute;
+left: 0px;
+bottom: 0px;
+}
+.box.e{
+position: absolute;
+right: 0px;
+bottom: 0px;
+}

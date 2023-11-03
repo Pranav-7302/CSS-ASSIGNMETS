@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    position: relative;
+}
+.box{
+    font-weight: bolder;
+}
+.box1{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    margin: 50px;
+    height: 100px;
+    width: 100px ;
+    background-color: red;
+    z-index: 3;
+}
+.box2{
+    position: absolute;
+    top: 10px;
+    left: 50px;
+    margin: 50px;
+    height: 100px;
+    width: 100px ;
+    background-color: aliceblue;
+    z-index: 2;
+}
+.box3{
+    position: absolute;
+    top: 10px;
+    left: 100px;
+    margin: 50px;
+    height: 100px;
+    width: 100px ;
+    background-color: aqua;
+    z-index: 1;
+}
+/* Here we made z index value 4 when we hover box the value of z index will become higher than others so the box will shown at upfront at the time of hovering  */
+.box1:hover{
+    z-index: 4;
+}
+.box2:hover{
+    z-index: 4;
+}
+.box3:hover{
+    z-index: 4;
+}
