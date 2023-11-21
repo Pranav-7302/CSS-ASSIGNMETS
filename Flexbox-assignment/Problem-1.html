@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <style>
+    .main {
+      padding-top: 30px;
+      /* margin: 0;
+        padding: 0; */
+      display: flex;
+      justify-content: center;
+      width: 100vw;
+      height: 100vh;
+    }
+    table {
+      width: 900px;
+      text-align: left;
+      background-color: bisque;
+      color: red;
+    }
+    table,
+    tr,
+    th,
+    td {
+      border: 2px solid black;
+      padding: auto;
+    }
+    td {
+      padding: 30px;
+      font-size: 20px;
+    }
+    th {
+      text-align: center;
+    }
+  </style>
+  <body>
+    <h3>
+      1. Describe the main difference between the CSS Flexbox layout model and
+      the CSS Grid layout model. When would you choose to one over the other.
+    </h3>
+    <div class="main">
+      <main>
+        <section>
+          <table>
+            <tr>
+              <th>CSS Flexbox Layout Model:</th>
+              <th>CSS Grid Layout Model:</th>
+            </tr>
+            <tr>
+              <td>
+                Flexbox is primarily designed for one-dimensional layouts,
+                either as rows or columns. It's ideal for laying out items in a
+                single direction.
+              </td>
+              <td>
+                CSS Grid is a two-dimensional layout system that allows you to
+                create complex, grid-based layouts with both rows and columns.
+              </td>
+            </tr>
+            <tr>
+              <td>
+                Flexbox works well when you want to distribute space and align
+                items along a single axis, which can be horizontal or vertical.
+              </td>
+              <td>
+                Grid is ideal for creating overall page layouts and arranging
+                items in a grid format, such as rows and columns. You can define
+                both row and column tracks.
+              </td>
+            </tr>
+            <tr>
+              <td>
+                It's great for creating responsive designs within a container
+                and for aligning items with varying sizes.
+              </td>
+              <td>
+                It's particularly useful for creating grid-like structures, such
+                as a news feed, image gallery, or any design where elements need
+                to be placed in specific rows and columns.
+              </td>
+            </tr>
+          </table>
+        </section>
+      </main>
+    </div>
+  </body>
+</html>
