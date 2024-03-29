@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+.container {
+  display: grid;
+  grid-template-columns: repeat(3, 100px);
+  justify-items: center; /* All items will be centered horizontally */
+}
+
+.item {
+  background-color: lightblue;
+}
+.container {
+  display: grid;
+  grid-template-columns: repeat(3, 100px);
+  justify-items: center; /* Default alignment for all items */
+}
+
+.item {
+  background-color: lightblue;
+}
+
+</style>
+</head>
+<body>
+   <center> <h1>Problem Statement</h1></center>
+    <center><h2>Explain the difference between justify-items and justify-self using code examples.</h2></center>
+    <div class="container">
+      <div class="item">Item 1</div>
+      <div class="item">Item 2</div>
+      <div class="item">Item 3</div>
+    </div>
+    <div class="container">
+      <div class="item">Item 1</div>
+      <div class="item" style="justify-self: end;">Item 2</div>
+      <div class="item">Item 3</div>
+    </div>
+    <h4>In this example, all items within the .container will be horizontally centered by default because of the justify-items: center. However, the second item overrides this alignment using justify-self: end;, so it will be aligned to the end of the grid cell while the other items remain centered.
+
+      To summarize, justify-items is used to align all items within a container by default, while justify-self is used to override this alignment for individual items.
+      
+      
+      
+      
+      </h4>
+      
+</body>
+</html>
